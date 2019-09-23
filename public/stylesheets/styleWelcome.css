@@ -1,0 +1,37 @@
+body{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/welcome.png");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    opacity: 0.87;
+}
+
+h2{
+  padding: 10px;
+}
+
+.form-control{
+  align-items: center;
+  page-break-inside: auto;
+}
+
+.container-fluid{
+  align: center;
+  margin: auto;
+}
